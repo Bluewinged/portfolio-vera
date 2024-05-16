@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="layout.css" />
+    <script
+      src="https://kit.fontawesome.com/aff7934f1d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id="sailio">
+      <!-- Header area -->
+      <header>
+        <nav>
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Etusivu</a></li>
+              <li><a href="#">Projektit</a></li>
+              <li><a href="#">Ota yhteyttä</a></li>
+            </ul>
+          </div>
+
+          <!-- Nav menu -->
+
+          <div class="mobile-nav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+              ><i class="fa-solid fa-bars"></i
+            ></a>
+          </div>
+
+          <div id="myLinks">
+            <a href="index.html">Etusivu</a>
+            <a href="#">Projektit</a>
+            <a href="#">Ota yhteyttä</a>
+          </div>
+
+          <!-- Mobile nav ends -->
+        </nav>
+        <h1>Oma sivu</h1>
+      </header>
+
+      <!-- Main area -->
+      <main>
+        <h2>Tervetuloa</h2>
+        <section id="tervetuloa">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+            neque est, nostrum consequuntur commodi quo repellat odio accusamus
+            molestias quisquam, minima illum fugit dolores temporibus nesciunt
+            voluptate, cupiditate repudiandae deserunt! <br /><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+            iure veritatis? Iste suscipit corrupti sunt aut exercitationem
+            dolores vero ea? Iure iste eum alias. Autem dolor saepe enim dolore
+            totam.
+          </p>
+          <img src="code-meme.webp" alt="" />
+        </section>
+        <h2>Skills</h2>
+        <section id="skills">
+          <div class="box">
+            <h3>Skills 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+              reprehenderit.
+            </p>
+          </div>
+          <div class="box">
+            <h3>Skills 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+              reprehenderit.
+            </p>
+          </div>
+          <div class="box">
+            <h3>Skills 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+              reprehenderit.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer area -->
+      <footer>
+        <section id="socials">
+          <p>Find me here:</p>
+        </section>
+
+        <section id="stuff">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex commodi
+            facere nihil ratione vero laudantium architecto? Cupiditate
+            explicabo possimus earum.
+          </p>
+          <p id="copy">(c) Kiki K 2024</p>
+        </section>
+      </footer>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
